@@ -1,0 +1,6 @@
+/*All changes go here*/
+
+.container {
+	border: 5px solid #ffcc5c;
+	display: flex;
+}
