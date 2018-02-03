@@ -1,0 +1,23 @@
+/*All changes go here*/
+
+.container {
+	border: 5px solid #ffcc5c;
+	display: flex;
+	height: 100%;
+	align-items: center;
+/*	justify-content: center; this places item on center center */ 
+}
+
+/*task align items individually to it's start and end*/
+
+.logout {
+	align-self: flex-start;
+}
+
+.home {
+	align-self: flex-end;
+}
+
+
+
+

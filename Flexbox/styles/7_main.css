@@ -1,0 +1,17 @@
+/*All changes go here*/
+
+.container {
+	border: 5px solid #ffcc5c;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 100%;
+	align-items: flex-end;
+}
+
+
+

@@ -21,10 +21,15 @@
 /*The above method is not ideal for flexing. One item should
 strech and fill controlling all items within the container see below*/
 
+/*
 .search {
 	flex: 2;
 }
+*/
 
-/*Task*/
+/*Task make .search a fixed width while .home and .logout grow */
 
-.search
+
+.home, .logout {
+	flex: 1;
+}/* Making .home & .logout flex: 1 they grow while .search stays fixed*/

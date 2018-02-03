@@ -1,9 +1,15 @@
 /*Global style for all 12 videos*/
 
 html, body {
-	background-color: #ffeead;
-	margin: 10px;
+	box-sizing: border-box;
+	height: 100%;
+	padding: 10px;
 	font-family: Helvetica, Arial, sans-serif;
+	background-color: #ffeead;
+}
+
+body {
+	margin: 0;
 }
 
 .container > div {
