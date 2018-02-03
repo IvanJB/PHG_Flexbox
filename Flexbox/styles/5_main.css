@@ -1,0 +1,30 @@
+/*All changes go here*/
+
+.container {
+	border: 5px solid #ffcc5c;
+	display: flex;
+	justify-content: flex-end
+}
+
+/*.container > div {
+	flex: 1;
+
+	/* flex-grow, flex-shrink, flex-basis
+}
+
+.container > .search {
+	flex: 2;
+}
+
+*/
+
+/*The above method is not ideal for flexing. One item should
+strech and fill controlling all items within the container see below*/
+
+.search {
+	flex: 2;
+}
+
+/*Task*/
+
+.search
