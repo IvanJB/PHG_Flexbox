@@ -1,0 +1,23 @@
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  flex-direction: row; /*default view setting*/
+  justify-content: flex-end;
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+}
+
+/* .logout {
+  margin-left: auto;
+} */
+
+/* .search {
+  margin-left: auto;
+} */
+
+.home {
+  margin-right: auto;
+}

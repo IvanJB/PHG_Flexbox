@@ -1,0 +1,18 @@
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  flex-direction: row; /*default view setting*/
+  justify-content: flex-start;
+  /* flex-start flex-end center space-between
+  space-around space-evenly */
+}
+
+/* .container > div {
+  flex: 1;
+  /* flex-grow, flex-basis, flex-shrink
+  FLEX WITH A RESPONSIVE ACTION
+} */
+
+.home,.logout {
+  flex: 1;
+}/*  not an ideal layout styling */
