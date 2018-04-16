@@ -1,0 +1,32 @@
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+}
+
+/*.home, .logout {
+  /*flex: 1; /*Short-hand property for  Grow, Shrink, Basis
+  flex: 1 1 0;*/
+  /* flex-grow: 1;
+  flex-grow: 0;
+  /* This adds the necessary space for the items to GROW and fill the container*/
+  /* If a child FLEX-GROW is bigger it will take=up the majority of space -- not used in grouping selectors --
+
+  flex-shrink: 1;
+
+  flex-basis: 200px;
+  /* sets the base width as long as the container is greater than the sum of all the children ie 200+200=400px
+}  Combined */
+
+.home {
+  flex: 1 1 200px; /*shorthand for Grow, Shrink, Basis*/
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 200px; */
+}
+
+.logout {
+  flex: 10 1 100px;
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 200px; */
+}
